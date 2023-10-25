@@ -1,6 +1,6 @@
 res://scenes/main.tscn
+res://scenes/ball.gd
 res://scenes/paddle.tscn
 res://scenes/ball.tscn
 res://scenes/wall.tscn
-res://scenes/ball.gd
 res://Script/paddle.gd
