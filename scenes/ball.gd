@@ -25,7 +25,7 @@ func _physics_process(delta):
 		
 	
 func start_ball():
-	position = start_position
+	position = start_position 
 	randomize()
 	
 	velocity = Vector2(randf_range(-1, 1), randf_range(-.1, -1)).normalized() * ball_speed
