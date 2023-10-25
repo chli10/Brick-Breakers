@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://daqphv82kimdm"]
+[gd_scene load_steps=5 format=3 uid="uid://daqphv82kimdm"]
 
 [ext_resource type="PackedScene" uid="uid://0vo6sr471e18" path="res://scenes/paddle.tscn" id="1_04bun"]
 [ext_resource type="PackedScene" uid="uid://bby5wkc7cneww" path="res://scenes/ball.tscn" id="2_cbh1y"]
+[ext_resource type="Script" path="res://scenes/ball.gd" id="3_jsp7r"]
 [ext_resource type="PackedScene" uid="uid://c3k1bwkdugxg3" path="res://scenes/wall.tscn" id="3_qqoqe"]
 
 [node name="main" type="Node"]
@@ -15,6 +16,7 @@ camera = NodePath("../Camera2D")
 [node name="Ball" parent="." instance=ExtResource("2_cbh1y")]
 position = Vector2(2.08165e-12, 152)
 collision_mask = 14
+script = ExtResource("3_jsp7r")
 
 [node name="Walls" type="Node" parent="."]
 
