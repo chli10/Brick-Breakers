@@ -7,6 +7,7 @@
 size = Vector2(124, 16)
 
 [node name="Paddle" type="RigidBody2D"]
+collision_layer = 2
 gravity_scale = 2.66454e-15
 script = ExtResource("1_sas7w")
 
