@@ -2,5 +2,9 @@ res://scenes/main.tscn
 res://scenes/paddle.tscn
 res://scenes/ball.tscn
 res://scenes/wall.tscn
+res://scenes/death_zone.gd
 res://scenes/ball.gd
+res://scenes/ui.tscn
+res://Script/ui.gd
+res://scenes/death_zone.tscn
 res://Script/paddle.gd
