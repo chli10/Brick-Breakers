@@ -2,9 +2,10 @@ res://scenes/main.tscn
 res://scenes/paddle.tscn
 res://scenes/ball.tscn
 res://scenes/wall.tscn
-res://scenes/death_zone.gd
-res://scenes/ball.gd
-res://scenes/ui.tscn
-res://Script/ui.gd
 res://scenes/death_zone.tscn
-res://Script/paddle.gd
+res://scenes/ui.tscn
+res://scenes/rigid_body_2d.tscn
+res://scenes/brick.tscn
+res://Script/brick.gd
+res://Script/brick_spawner.gd
+res://scenes/ball.gd
