@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://c3k1bwkdugxg3" path="res://scenes/wall.tscn" id="3_qqoqe"]
 [ext_resource type="PackedScene" uid="uid://dugwtygjqxky2" path="res://scenes/death_zone.tscn" id="5_v6p0n"]
 [ext_resource type="Script" path="res://Script/brick_spawner.gd" id="7_bi7gj"]
-[ext_resource type="PackedScene" uid="uid://c6bbkpxouiitp" path="res://scenes/brick.tscn" id="8_pl30v"]
+[ext_resource type="PackedScene" path="res://scenes/brick.tscn" id="8_pl30v"]
 
 [node name="main" type="Node"]
 

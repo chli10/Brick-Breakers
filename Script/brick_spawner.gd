@@ -26,7 +26,7 @@ func spawn():
 	test_brick.queue_free()
 	
 	var row_width = brick_size.x * COLUMNS + margin.x * (COLUMNS - 1)
-	var spawn_position_x = (-row_width / 2 + brick_size.x / 2 + margin.x) / 2
+	var spawn_position_x = (-row_width + brick_size.x + margin.x) / 2
 	var spawn_position_y = spawn_start.position.y
 	
 	for i in ROWS: 
@@ -38,7 +38,7 @@ func spawn():
 				var y = spawn_position_y + i * (margin.y + brick.get_size().y)
 				brick.set_position(Vector2(x, y))
 				brick.brick_destroyed.connect(on_brick_destroyed)
-
+				
 func on_brick_destroyed():
 	brick_count -= 1
 	if brick_count == 0:
