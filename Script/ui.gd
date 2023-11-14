@@ -13,6 +13,7 @@ func set_lifes (lifes: int):
 func game_over():
 	game_lost_container.show()
 	
+	
 func _on_game_lost_button_pressed():
 	get_tree().reload_current_scene()
 
