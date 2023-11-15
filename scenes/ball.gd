@@ -34,6 +34,7 @@ func _physics_process(delta):
 			collider.decrease_level()
 	if (collider is Brick or collider is Paddle):
 		ball_collision(collider)
+		$CollideSound.play()
 	else:
 		velocity = velocity.bounce(collision.get_normal())	
 		
