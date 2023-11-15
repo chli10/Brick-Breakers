@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dugwtygjqxky2" path="res://scenes/death_zone.tscn" id="5_v6p0n"]
 [ext_resource type="Script" path="res://Script/brick_spawner.gd" id="7_bi7gj"]
 [ext_resource type="PackedScene" uid="uid://c6bbkpxouiitp" path="res://scenes/brick.tscn" id="8_pl30v"]
-[ext_resource type="AudioStream" uid="uid://ddpyrjsctu42u" path="res://BACKGROUND MUSIC.wav" id="9_s7guu"]
+[ext_resource type="AudioStream" path="res://BACKGROUND MUSIC.wav" id="9_lx0sl"]
 
 [node name="main" type="Node"]
 
@@ -57,7 +57,7 @@ spawn_start = NodePath("../Marker2D")
 position = Vector2(0, -236)
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("9_s7guu")
+stream = ExtResource("9_lx0sl")
 volume_db = 0.07
 pitch_scale = 0.74
 autoplay = true
