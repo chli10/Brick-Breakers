@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dugwtygjqxky2"]
 
 [ext_resource type="Script" path="res://scenes/death_zone.gd" id="1_esqp5"]
-[ext_resource type="AudioStream" uid="uid://cv72x7xhiqxrv" path="res://BOOM 2.0 - 11:14:23, 3.41 PM.wav" id="2_4dleo"]
+[ext_resource type="AudioStream" uid="uid://c82d57ckd0dq7" path="res://BOOM 2.0 - 11:14:23, 3.41 PM.wav" id="2_4dleo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3t6y6"]
 size = Vector2(1164, 20)

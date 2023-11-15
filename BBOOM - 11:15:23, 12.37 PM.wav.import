@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://buqtuwyibhuew"
+path="res://.godot/imported/BBOOM - 11:15:23, 12.37 PM.wav-c3acca77213efb484f03d2e4e208b003.sample"
+
+[deps]
+
+source_file="res://BBOOM - 11:15:23, 12.37 PM.wav"
+dest_files=["res://.godot/imported/BBOOM - 11:15:23, 12.37 PM.wav-c3acca77213efb484f03d2e4e208b003.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

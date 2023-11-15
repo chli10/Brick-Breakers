@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bby5wkc7cneww"]
 
 [ext_resource type="Texture2D" uid="uid://c8l7ke1ygg27h" path="res://Assets/Ball.png" id="1_522cb"]
-[ext_resource type="AudioStream" path="res://BOOM 2.0 - 11:14:23, 3.41 PM.wav" id="2_xs0nv"]
+[ext_resource type="AudioStream" uid="uid://c82d57ckd0dq7" path="res://BOOM 2.0 - 11:14:23, 3.41 PM.wav" id="2_xs0nv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rqq2t"]
 radius = 32.0

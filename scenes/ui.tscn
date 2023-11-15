@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://c80yn0o08bc5l"]
+[gd_scene load_steps=7 format=3 uid="uid://c80yn0o08bc5l"]
 
 [ext_resource type="FontFile" uid="uid://b4pqfbvte11k6" path="res://Assets/VT323-Regular.ttf" id="1_8ehkn"]
 [ext_resource type="Script" path="res://Script/ui.gd" id="1_uvc4i"]
 [ext_resource type="AudioStream" path="res://DAMN! - 11:15:23, 12.19 PM.wav" id="3_lajb5"]
+[ext_resource type="AudioStream" uid="uid://dh5464vmybdtm" path="res://YAHOO.wav" id="4_5kylm"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bq48y"]
 bg_color = Color(0.698039, 0.501961, 0.85098, 1)
@@ -105,6 +106,10 @@ text = "GO TO NEXT LEVEL"
 
 [node name="GameLost" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_lajb5")
+
+[node name="LevelPassed" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_5kylm")
+volume_db = 12.0
 
 [connection signal="pressed" from="GameLostContainer/Panel/VBoxContainer/GameLostButton" to="." method="_on_game_lost_button_pressed"]
 [connection signal="pressed" from="LevelWonContainer/Panel/VBoxContainer/LevelWonButton" to="." method="_on_level_won_button_pressed"]
