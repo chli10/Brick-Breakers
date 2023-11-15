@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700005320
+::res://::1700079631
 BACKGROUND MUSIC.wav::AudioStreamWAV::7402282315260787886::1700003793::1700004545::1::::<><>::
 BOOM 2.0 - 11:14:23, 3.41 PM.wav::AudioStreamWAV::6314549320586403027::1700005307::1700005323::1::::<><>::
+DAMN! - 11:15:23, 12.19 PM.wav::AudioStreamWAV::1325947146638073047::1700079595::1700079632::1::::<><>::
 icon.svg::CompressedTexture2D::3476750826220984255::1698262700::1698262700::1::::<><>::
 README.md::TextFile::-1::1698262700::0::1::::<><>::
 WOMPWOMP- 11:14:23, 3.29 PM.wav::AudioStreamWAV::6899468188238257446::1700004586::1700004596::1::::<><>::
@@ -17,16 +18,16 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698262700::16982627
 icon.svg::CompressedTexture2D::7753658774376271310::1698262700::1698262700::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698262700::1698262700::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698262700::1698262700::1::::<><>::
-::res://scenes/::1700005150
+::res://scenes/::1700005408
 ball.gd::GDScript::-1::1698868094::0::1::::Ball<>CharacterBody2D<>::
-ball.tscn::PackedScene::2508015920457702554::1700005150::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-brick.tscn::PackedScene::6950839296894981941::1700005150::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Script/brick.gd
+ball.tscn::PackedScene::2508015920457702554::1700005345::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+brick.tscn::PackedScene::6950839296894981941::1700005345::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Script/brick.gd
 death_zone.gd::GDScript::-1::1700004913::0::1::::DeathZone<>Area2D<>::
-death_zone.tscn::PackedScene::8576796164549811275::1700005150::0::1::::<><>::res://scenes/death_zone.gd<>uid://5ncxpyoofplj::::res://BOOM - 11:14:23, 3.36 PM.wav
-main.tscn::PackedScene::7193216505802437794::1700005150::0::1::::<><>::uid://0vo6sr471e18::::res://scenes/paddle.tscn<>uid://c80yn0o08bc5l::::res://scenes/ui.tscn<>uid://bby5wkc7cneww::::res://scenes/ball.tscn<>res://scenes/ball.gd<>uid://c3k1bwkdugxg3::::res://scenes/wall.tscn<>uid://dugwtygjqxky2::::res://scenes/death_zone.tscn<>res://Script/brick_spawner.gd<>uid://c6bbkpxouiitp::::res://scenes/brick.tscn<>uid://ddpyrjsctu42u::::res://BACKGROUND MUSIC.wav
-paddle.tscn::PackedScene::1798979394339242325::1700005150::0::1::::<><>::res://Script/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-ui.tscn::PackedScene::7142164410330966727::1700005150::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Script/ui.gd
-wall.tscn::PackedScene::6760354365522582548::1700005150::0::1::::<><>::
+death_zone.tscn::PackedScene::8576796164549811275::1700005408::0::1::::<><>::res://scenes/death_zone.gd<>uid://cv72x7xhiqxrv::::res://BOOM 2.0 - 11:14:23, 3.41 PM.wav
+main.tscn::PackedScene::7193216505802437794::1700005345::0::1::::<><>::uid://0vo6sr471e18::::res://scenes/paddle.tscn<>uid://c80yn0o08bc5l::::res://scenes/ui.tscn<>uid://bby5wkc7cneww::::res://scenes/ball.tscn<>res://scenes/ball.gd<>uid://c3k1bwkdugxg3::::res://scenes/wall.tscn<>uid://dugwtygjqxky2::::res://scenes/death_zone.tscn<>res://Script/brick_spawner.gd<>uid://c6bbkpxouiitp::::res://scenes/brick.tscn<>uid://ddpyrjsctu42u::::res://BACKGROUND MUSIC.wav
+paddle.tscn::PackedScene::1798979394339242325::1700005345::0::1::::<><>::res://Script/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+ui.tscn::PackedScene::7142164410330966727::1700005345::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Script/ui.gd
+wall.tscn::PackedScene::6760354365522582548::1700005345::0::1::::<><>::
 ::res://Script/::1700004834
 brick.gd::GDScript::-1::1698790041::0::1::::Brick<>RigidBody2D<>::
 brick_spawner.gd::GDScript::-1::1698963144::0::1::::BrickSpawner<>Node<>::
