@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bby5wkc7cneww"]
+[gd_scene load_steps=5 format=3 uid="uid://bby5wkc7cneww"]
 
 [ext_resource type="Texture2D" uid="uid://c8l7ke1ygg27h" path="res://Assets/Ball.png" id="1_522cb"]
-[ext_resource type="AudioStream" uid="uid://obvc6v0fa02w" path="res://BOINK (Brick hitting Brick AND PADDLE).wav" id="3_jdno6"]
-[ext_resource type="AudioStream" uid="uid://buqtuwyibhuew" path="res://BBOOM - 11:15:23, 12.37 PM.wav" id="4_3oigf"]
-[ext_resource type="AudioStream" uid="uid://dfikfx1lbwcv7" path="res://bruh (ball hitting wall).wav" id="4_vx5q4"]
+[ext_resource type="AudioStream" uid="uid://buqtuwyibhuew" path="res://BBOOM - 11:15:23, 12.37 PM.wav" id="2_hcppj"]
+[ext_resource type="AudioStream" uid="uid://obvc6v0fa02w" path="res://BOINK (Brick hitting Brick AND PADDLE).wav" id="3_ajqwy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rqq2t"]
 radius = 32.0
@@ -19,10 +18,8 @@ texture = ExtResource("1_522cb")
 shape = SubResource("CircleShape2D_rqq2t")
 
 [node name="DeathSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_vx5q4")
+stream = ExtResource("2_hcppj")
+volume_db = 3.0
 
 [node name="CollideSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_jdno6")
-
-[node name="WallSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_3oigf")
+stream = ExtResource("3_ajqwy")
