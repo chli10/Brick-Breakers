@@ -11,6 +11,7 @@ func set_lifes (lifes: int):
 	
 
 func game_over():
+	$GameLost.play()
 	game_lost_container.show()
 	
 	

@@ -49,9 +49,11 @@ func on_life_lost():
 	if lifes == 0: 
 		ui.game_over()
 	else:
+		$DeathSound.play()
 		life_lost.emit()
 		reset_ball()
 		ui.set_lifes(lifes)
+		
 		
 		
 func reset_ball():
