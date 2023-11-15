@@ -2,7 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://b4pqfbvte11k6" path="res://Assets/VT323-Regular.ttf" id="1_8ehkn"]
 [ext_resource type="Script" path="res://Script/ui.gd" id="1_uvc4i"]
-[ext_resource type="AudioStream" uid="uid://s5kfkc34lq4v" path="res://DAMN! - 11:15:23, 12.19 PM.wav" id="3_lajb5"]
+[ext_resource type="AudioStream" path="res://DAMN! - 11:15:23, 12.19 PM.wav" id="3_lajb5"]
 [ext_resource type="AudioStream" uid="uid://dh5464vmybdtm" path="res://YAHOO.wav" id="4_5kylm"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bq48y"]
