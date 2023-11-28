@@ -1,11 +1,27 @@
-[gd_scene load_steps=5 format=3 uid="uid://bby5wkc7cneww"]
+[gd_scene load_steps=8 format=3 uid="uid://bby5wkc7cneww"]
 
 [ext_resource type="Texture2D" uid="uid://c8l7ke1ygg27h" path="res://Assets/Ball.png" id="1_522cb"]
-[ext_resource type="AudioStream" uid="uid://buqtuwyibhuew" path="res://BBOOM - 11:15:23, 12.37 PM.wav" id="2_hcppj"]
-[ext_resource type="AudioStream" uid="uid://obvc6v0fa02w" path="res://BOINK (Brick hitting Brick AND PADDLE).wav" id="3_ajqwy"]
+[ext_resource type="AudioStream" uid="uid://obvc6v0fa02w" path="res://BOINK (Brick hitting Brick AND PADDLE).wav" id="3_jdno6"]
+[ext_resource type="AudioStream" uid="uid://buqtuwyibhuew" path="res://BBOOM - 11:15:23, 12.37 PM.wav" id="4_3oigf"]
+[ext_resource type="AudioStream" uid="uid://dfikfx1lbwcv7" path="res://bruh (ball hitting wall).wav" id="4_vx5q4"]
+[ext_resource type="Texture2D" uid="uid://b2efwkkcoomns" path="res://cute-shiba-inu-dog-cartoon-element-png.png" id="5_4sq6o"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rqq2t"]
 radius = 32.0
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_cq5h0"]
+particle_flag_disable_z = true
+direction = Vector3(2.08165e-12, 1, 2.08165e-12)
+spread = 0.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 500.0
+initial_velocity_max = 675.3
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+radial_accel_min = 2.08167e-15
+radial_accel_max = 2.08167e-15
+scale_min = 0.02
+scale_max = 0.02
 
 [node name="Ball" type="CharacterBody2D"]
 scale = Vector2(0.25, 0.25)
@@ -18,8 +34,15 @@ texture = ExtResource("1_522cb")
 shape = SubResource("CircleShape2D_rqq2t")
 
 [node name="DeathSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_hcppj")
-volume_db = 3.0
+stream = ExtResource("4_vx5q4")
 
 [node name="CollideSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_ajqwy")
+stream = ExtResource("3_jdno6")
+
+[node name="WallSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_3oigf")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+process_material = SubResource("ParticleProcessMaterial_cq5h0")
+texture = ExtResource("5_4sq6o")
+lifetime = 0.3
