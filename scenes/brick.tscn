@@ -1,10 +1,32 @@
-[gd_scene load_steps=4 format=3 uid="uid://c6bbkpxouiitp"]
+[gd_scene load_steps=7 format=3 uid="uid://c6bbkpxouiitp"]
 
 [ext_resource type="Texture2D" uid="uid://d06ws4g0pu0q0" path="res://Assets/Brick-Blue.png" id="1_sw4vi"]
 [ext_resource type="Script" path="res://Script/brick.gd" id="1_uofgy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iatca"]
 size = Vector2(100, 24)
+
+[sub_resource type="Curve" id="Curve_i4xgm"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.980043, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_j3pk4"]
+curve = SubResource("Curve_i4xgm")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_p3fpk"]
+lifetime_randomness = 0.7
+particle_flag_disable_z = true
+spread = 180.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 500.0
+initial_velocity_max = 500.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+angle_min = -571.8
+angle_max = 84.7
+scale_min = 10.0
+scale_max = 10.0
+scale_curve = SubResource("CurveTexture_j3pk4")
 
 [node name="Brick" type="RigidBody2D"]
 collision_layer = 8
@@ -19,3 +41,10 @@ texture = ExtResource("1_sw4vi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_iatca")
+
+[node name="BrickParticle" type="GPUParticles2D" parent="."]
+visible = false
+amount = 50
+process_material = SubResource("ParticleProcessMaterial_p3fpk")
+one_shot = true
+explosiveness = 1.0

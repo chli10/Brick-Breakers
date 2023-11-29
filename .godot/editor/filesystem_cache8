@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701215232
+::res://::1701289645
 6130ff9561dbd3299dc601efd9fa8b8b.png::CompressedTexture2D::5745952948806040159::1701214482::1701214483::1::::<><>::
 BACKGROUND MUSIC.wav::AudioStreamWAV::7402282315260787886::1700079868::1700079868::1::::<><>::
 BBOOM - 11:15:23, 12.37 PM.wav::AudioStreamWAV::3824418132213493174::1700081944::1700081964::1::::<><>::
@@ -27,16 +27,16 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1692354175::16980995
 icon.svg::CompressedTexture2D::7753658774376271310::1692354175::1698099538::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1692354175::1698099538::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1692354175::1698099538::1::::<><>::
-::res://scenes/::1701215159
+::res://scenes/::1701215247
 ball.gd::GDScript::-1::1700083044::0::1::::Ball<>CharacterBody2D<>::
-ball.tscn::PackedScene::2508015920457702554::1701215159::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>uid://obvc6v0fa02w::::res://BOINK (Brick hitting Brick AND PADDLE).wav<>uid://buqtuwyibhuew::::res://BBOOM - 11:15:23, 12.37 PM.wav<>uid://dfikfx1lbwcv7::::res://bruh (ball hitting wall).wav<>uid://b2efwkkcoomns::::res://cute-shiba-inu-dog-cartoon-element-png.png
-brick.tscn::PackedScene::6950839296894981941::1701215159::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Script/brick.gd
+ball.tscn::PackedScene::2508015920457702554::1701215247::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>uid://obvc6v0fa02w::::res://BOINK (Brick hitting Brick AND PADDLE).wav<>uid://buqtuwyibhuew::::res://BBOOM - 11:15:23, 12.37 PM.wav<>uid://dfikfx1lbwcv7::::res://bruh (ball hitting wall).wav<>uid://b2efwkkcoomns::::res://cute-shiba-inu-dog-cartoon-element-png.png
+brick.tscn::PackedScene::6950839296894981941::1701215247::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Script/brick.gd
 death_zone.gd::GDScript::-1::1700081809::0::1::::DeathZone<>Area2D<>::
-death_zone.tscn::PackedScene::8576796164549811275::1701215159::0::1::::<><>::res://scenes/death_zone.gd
-main.tscn::PackedScene::7193216505802437794::1701215159::0::1::::<><>::uid://0vo6sr471e18::::res://scenes/paddle.tscn<>uid://c80yn0o08bc5l::::res://scenes/ui.tscn<>uid://bby5wkc7cneww::::res://scenes/ball.tscn<>res://scenes/ball.gd<>uid://c3k1bwkdugxg3::::res://scenes/wall.tscn<>uid://dugwtygjqxky2::::res://scenes/death_zone.tscn<>res://Script/brick_spawner.gd<>uid://c6bbkpxouiitp::::res://scenes/brick.tscn<>uid://ddpyrjsctu42u::::res://BACKGROUND MUSIC.wav
-paddle.tscn::PackedScene::1798979394339242325::1701215159::0::1::::<><>::res://Script/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-ui.tscn::PackedScene::7142164410330966727::1701215159::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Script/ui.gd<>uid://s5kfkc34lq4v::::res://DAMN! - 11:15:23, 12.19 PM.wav<>uid://dh5464vmybdtm::::res://YAHOO.wav
-wall.tscn::PackedScene::6760354365522582548::1701215159::0::1::::<><>::
+death_zone.tscn::PackedScene::8576796164549811275::1701215247::0::1::::<><>::res://scenes/death_zone.gd
+main.tscn::PackedScene::7193216505802437794::1701215247::0::1::::<><>::uid://0vo6sr471e18::::res://scenes/paddle.tscn<>uid://c80yn0o08bc5l::::res://scenes/ui.tscn<>uid://bby5wkc7cneww::::res://scenes/ball.tscn<>res://scenes/ball.gd<>uid://c3k1bwkdugxg3::::res://scenes/wall.tscn<>uid://dugwtygjqxky2::::res://scenes/death_zone.tscn<>res://Script/brick_spawner.gd<>uid://c6bbkpxouiitp::::res://scenes/brick.tscn<>uid://ddpyrjsctu42u::::res://BACKGROUND MUSIC.wav
+paddle.tscn::PackedScene::1798979394339242325::1701215247::0::1::::<><>::res://Script/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+ui.tscn::PackedScene::7142164410330966727::1701215247::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Script/ui.gd<>uid://s5kfkc34lq4v::::res://DAMN! - 11:15:23, 12.19 PM.wav<>uid://dh5464vmybdtm::::res://YAHOO.wav
+wall.tscn::PackedScene::6760354365522582548::1701215247::0::1::::<><>::
 ::res://Script/::1700082171
 brick.gd::GDScript::-1::1698791175::0::1::::Brick<>RigidBody2D<>::
 brick_spawner.gd::GDScript::-1::1698963092::0::1::::BrickSpawner<>Node<>::
