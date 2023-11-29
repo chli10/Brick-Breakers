@@ -24,7 +24,7 @@ var level_3 = [
 ]
 
 
-var levels = [level_1, level_2]
+var levels = [level_1, level_2, level_3]
 
 func get_current_level():
 	print(levels[current_level - 1])

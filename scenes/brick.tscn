@@ -44,7 +44,7 @@ shape = SubResource("RectangleShape2D_iatca")
 
 [node name="BrickParticle" type="GPUParticles2D" parent="."]
 visible = false
-amount = 50
+amount = 500
 process_material = SubResource("ParticleProcessMaterial_p3fpk")
 one_shot = true
 explosiveness = 1.0
