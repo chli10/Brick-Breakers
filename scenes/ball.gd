@@ -12,7 +12,7 @@ const VELOCITY_LIMIT = 40
 @export var ui: UI
 
 
-var speed_up_factor = 1.0
+var speed_up_factor = 1
 var start_position: Vector2
 var last_collider_id 
 @onready var collision_shape_2d = $CollisionShape2D
