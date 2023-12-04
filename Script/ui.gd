@@ -7,6 +7,7 @@ class_name UI
 @onready var level_won_container = $LevelWonContainer
 @onready var game_won_container = $GameWonContainer
 
+
 func set_lifes (lifes: int):
 	lifes_label.text = "Lifes: %d"  % lifes
 	
@@ -27,5 +28,7 @@ func on_level_won():
 func _on_level_won_button_pressed():
 	LevelDefinitions.current_level += 1
 	get_tree().reload_current_scene()
-	if LevelDefinitions.current_level == 3:
-		game_won_container.show()
+	
+func game_won():
+	$LevelPassed.play()
+	game_won_container.show()
