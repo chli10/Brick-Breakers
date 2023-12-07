@@ -14,12 +14,12 @@ point_count = 2
 curve = SubResource("Curve_i4xgm")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_p3fpk"]
-lifetime_randomness = 0.7
+lifetime_randomness = 0.41
 particle_flag_disable_z = true
 spread = 180.0
-gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
-initial_velocity_min = 500.0
-initial_velocity_max = 500.0
+gravity = Vector3(2.08165e-12, 80, 2.08165e-12)
+initial_velocity_min = 100.0
+initial_velocity_max = 300.0
 orbit_velocity_min = 0.0
 orbit_velocity_max = 0.0
 angle_min = -571.8
@@ -44,7 +44,7 @@ shape = SubResource("RectangleShape2D_iatca")
 
 [node name="BrickParticle" type="GPUParticles2D" parent="."]
 visible = false
-amount = 500
+amount = 150
 process_material = SubResource("ParticleProcessMaterial_p3fpk")
 one_shot = true
 explosiveness = 1.0
